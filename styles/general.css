@@ -1,0 +1,44 @@
+/* Universal selector */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: "Poppins";
+    user-select: none;
+}
+
+/* Display flex on the body */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Using the form general selector since there's only one of that within the page */
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 2em;
+    gap: 0.5em;
+}
+
+/* General inputs field */
+input[type="text"], input[type="password"]{
+    outline: none;
+    border: none;   
+}
+
+/* Gereral icons that will be displayed within the input fields */
+ion-icon{
+    margin-bottom: -0.21em;
+}
