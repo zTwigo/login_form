@@ -10,3 +10,11 @@
     justify-content: center;
     align-items: center;
 }
+
+#passwordViewer{
+    cursor: pointer;
+}
+
+#password{
+    max-width: 147px;
+}
