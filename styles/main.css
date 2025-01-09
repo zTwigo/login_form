@@ -12,6 +12,27 @@
     position: relative;
 }
 
+/* Main application logo */
+.application-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 13%;
+    font-size: 16pt;
+    color: rgb(236, 234, 234);
+}
+
+.application-icon{
+    font-size: 48px;
+}
+
+.application-logo-title{
+    margin-bottom: -0.5em;
+}
+
 /* Glass effect */
 .glass{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
